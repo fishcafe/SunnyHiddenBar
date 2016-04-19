@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'SunnyHiddenBar_Example', :exclusive => true do
+  pod 'SunnyHiddenBar', :path => '../'
+end
+
+target 'SunnyHiddenBar_Tests', :exclusive => true do
+  pod 'SunnyHiddenBar', :path => '../'
+
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+end
