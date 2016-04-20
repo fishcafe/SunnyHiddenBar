@@ -9,7 +9,7 @@ SunnyHiddenBar is an Hidden Navigation library written in Swift.
 
 ##Screenshot
 
-<img src="https://github.com/gitcafe/SunnyHiddenBar/blob/master/SunnyHiddenBar.gif>
+<img src="https://github.com/gitcafe/SunnyHiddenBar/blob/master/Example/SunnyHiddenBar.gif />
 
 ## Features
 
