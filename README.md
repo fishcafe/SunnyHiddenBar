@@ -20,42 +20,36 @@ SunnyHiddenBar is an Hidden Navigation library written in Swift.
 
 - If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/SunnyHiddenBar). (Tag 'sunnyhiddenbar')
 - If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/SunnyHiddenBar.
-                                                                    - If you **found a bug**, open an issue.
-                                                                    - If you **have a feature request**, open an issue.
-                                                                    - If you **want to contribute**, submit a pull request.
+- If you **found a bug**, open an issue.
+- If you **have a feature request**, open an issue.
+- If you **want to contribute**, submit a pull request.
+                                                                    
+ ## Usage
                                                                     
                                                                     
-                                                                    ## Usage
+```swift
                                                                     
-                                                                    
-                                                                    ```swift
-                                                                    
-                                                                    override func viewDidLoad() {
-super.viewDidLoad()
-self.keyScrollView = self.tableView
-}
+    override func viewDidLoad() {
+      super.viewDidLoad()
+      self.keyScrollView = self.tableView
+    }
 
-override func viewWillAppear(animated: Bool) {
-super.viewWillAppear(animated)
-self.setInViewWillAppear()
-}
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.setInViewWillAppear()
+    }
 
-override func viewWillDisappear(animated: Bool) {
-super.viewWillDisappear(animated)
-self.setInViewWillDisappear()
-}
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.setInViewWillDisappear()
+    }
 
-override func scrollViewDidScroll(scrollView: UIScrollView) {
-self.scrollControlByOffsetY(200)
-}
-
-
+    override func scrollViewDidScroll(scrollView: UIScrollView) {
+        self.scrollControlByOffsetY(200)
+    }
 
 ```
-
 ---
-
-
 
 ## Installation
 
