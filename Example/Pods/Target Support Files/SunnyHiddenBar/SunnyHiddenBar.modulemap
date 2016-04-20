@@ -1,0 +1,6 @@
+framework module SunnyHiddenBar {
+  umbrella header "SunnyHiddenBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
